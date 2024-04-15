@@ -1,3 +1,5 @@
+package ejemplosSueltos;
+
 public class Calculadora {
     public static double sumar(double n1, double n2){
         return n1 + n1;

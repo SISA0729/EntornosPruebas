@@ -1,10 +1,11 @@
+import ejemplosSueltos.Calculadora;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 public class CalculadoraTest {
 
     @Test
     void prueba1sumar(){
-        assertEquals(4,Calculadora.sumar(2,2));
+        assertEquals(4, Calculadora.sumar(2,2));
     }
 
     @Test
