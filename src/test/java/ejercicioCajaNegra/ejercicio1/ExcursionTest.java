@@ -19,6 +19,7 @@ public class ExcursionTest {
     @Test
     @DisplayName("precio alumno: 100 alumnos")
     void calcularPrecioAlumno1() {
+
         assertEquals(65, ExcursionMetodosEstaticos.calcularPrecioAlumno(100));
     }
 
