@@ -13,19 +13,19 @@ public class ComprobarIdentificadorTest {
         ComprobarIdentificador ci = new ComprobarIdentificador();
 
         ci.setIdentificador("valid-id1");
-        assertTrue(ci.validarIdentificador(), "El identificador debería ser válido");
+        assertTrue(ci.validarIdentificador());
 
         ci.setIdentificador("invalid-id-");
-        assertFalse(ci.validarIdentificador(), "El identificador no debería ser válido por tener un guión al final");
+        assertFalse(ci.validarIdentificador());
 
         ci.setIdentificador("int");
-        assertFalse(ci.validarIdentificador(), "El identificador no debería ser válido por ser una palabra reservada");
+        assertFalse(ci.validarIdentificador());
 
         ci.setIdentificador("12345");
-        assertFalse(ci.validarIdentificador(), "El identificador no debería ser válido por no contener letras");
+        assertFalse(ci.validarIdentificador());
 
         ci.setIdentificador("verylongidentifiernameexceedinglimit");
-        assertFalse(ci.validarIdentificador(), "El identificador no debería ser válido por exceder la longitud máxima permitida");
+        assertFalse(ci.validarIdentificador());
     }
 
 }
