@@ -4,8 +4,6 @@ public class ComprobarIdentificador {
 
        private String identificador;
 
-       
-
         public String getIdentificador() {
             return identificador;
         }
