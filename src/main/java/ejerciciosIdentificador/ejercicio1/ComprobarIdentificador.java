@@ -1,5 +1,7 @@
 package ejerciciosIdentificador.ejercicio1;
 
+import java.util.Arrays;
+
 public class ComprobarIdentificador {
 
        private String identificador;
