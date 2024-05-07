@@ -4,7 +4,7 @@ public class ComprobarIdentificador {
 
        private String identificador;
 
-        // constructor sin parámetros
+       
 
         public String getIdentificador() {
             return identificador;
