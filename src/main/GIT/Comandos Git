@@ -1,0 +1,8 @@
+Comandos Git
+=================
+git init -> inicia el repositorio git
+git add . -> agrega todos los cambios realizados
+git clone -> clona el git de otro repositorio
+git commit -m "sisa_ismael" -> confirma los cambios con una version
+git push ->
+git status -> muestra el estado del git
